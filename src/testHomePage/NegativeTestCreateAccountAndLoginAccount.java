@@ -51,7 +51,7 @@ cancel.click ();
         waitUntilElementIsLoaded(driver,By.xpath ( "//input[@formcontrolname='email']"),20);
         WebElement mailField = driver.findElement( By.xpath("//input[@formcontrolname='email']"));
         mailField.click();
-        mailField.sendKeys("yana177@gmail.com");
+        mailField.sendKeys("yana180@gmail.com");
 
 
         WebElement passwordField = driver.findElement( By.xpath("//input[@formcontrolname='password']"));
@@ -86,12 +86,12 @@ cancel.click ();
 
         WebElement emailReg = driver.findElement( By.xpath("//input[@formcontrolname='email']"));
         emailReg.click();
-        emailReg.sendKeys("mish99@gmail.com");
+        emailReg.sendKeys("yana888@gmail.com");
         waitUntilElementIsLoaded(driver,By.xpath ( "//input[@formcontrolname='password']"),20);
 
         WebElement passReg =  driver.findElement( By.xpath("//input[@formcontrolname='password']"));
         passReg.click();
-        passReg.sendKeys("example");
+        passReg.sendKeys("344566");
         waitUntilElementIsLoaded(driver,By.xpath ( "//span[contains(text(),'Log in')]"),35);
         WebElement log_In = driver.findElement( By.xpath("//span[contains(text(),'Log in')]"));
         log_In.click();
